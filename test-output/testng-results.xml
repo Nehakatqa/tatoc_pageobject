@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="7" failed="0" total="7" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47" started-at="2018-06-25T07:53:24Z" finished-at="2018-06-25T07:53:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47" started-at="2018-06-25T07:53:24Z" finished-at="2018-06-25T07:53:24Z">
+      <class name="com.qait.project_name.Pom.AppTest">
+        <test-method status="FAIL" signature="run(org.openqa.selenium.WebDriver)[pri:0, instance:com.qait.project_name.Pom.AppTest@58651fd0]" name="run" is-config="true" duration-ms="0" started-at="2018-06-25T13:23:24Z" finished-at="2018-06-25T13:23:24Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method run requires 1 parameters but 0 were supplied in the @Configuration annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method run requires 1 parameters but 0 were supplied in the @Configuration annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:198)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:134)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:370)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="SKIP" signature="Step01web_browser_launches()[pri:0, instance:com.qait.project_name.Pom.AppTest@58651fd0]" name="Step01web_browser_launches" duration-ms="6" started-at="2018-06-25T13:23:24Z" finished-at="2018-06-25T13:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step01web_browser_launches -->
+        <test-method status="SKIP" signature="Step02click_on_basiccourse()[pri:0, instance:com.qait.project_name.Pom.AppTest@58651fd0]" name="Step02click_on_basiccourse" duration-ms="1" started-at="2018-06-25T13:23:24Z" finished-at="2018-06-25T13:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step02click_on_basiccourse -->
+        <test-method status="SKIP" signature="Step03clickgreenbox()[pri:0, instance:com.qait.project_name.Pom.AppTest@58651fd0]" name="Step03clickgreenbox" duration-ms="1" started-at="2018-06-25T13:23:24Z" finished-at="2018-06-25T13:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step03clickgreenbox -->
+        <test-method status="SKIP" signature="Step04clickredbox()[pri:0, instance:com.qait.project_name.Pom.AppTest@58651fd0]" name="Step04clickredbox" duration-ms="1" started-at="2018-06-25T13:23:24Z" finished-at="2018-06-25T13:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step04clickredbox -->
+        <test-method status="SKIP" signature="Step05frame2()[pri:0, instance:com.qait.project_name.Pom.AppTest@58651fd0]" name="Step05frame2" duration-ms="2" started-at="2018-06-25T13:23:24Z" finished-at="2018-06-25T13:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step05frame2 -->
+        <test-method status="SKIP" signature="Step06dragaround()[pri:0, instance:com.qait.project_name.Pom.AppTest@58651fd0]" name="Step06dragaround" duration-ms="2" started-at="2018-06-25T13:23:24Z" finished-at="2018-06-25T13:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step06dragaround -->
+        <test-method status="SKIP" signature="Step07launchpopup()[pri:0, instance:com.qait.project_name.Pom.AppTest@58651fd0]" name="Step07launchpopup" duration-ms="1" started-at="2018-06-25T13:23:24Z" finished-at="2018-06-25T13:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step07launchpopup -->
+      </class> <!-- com.qait.project_name.Pom.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
